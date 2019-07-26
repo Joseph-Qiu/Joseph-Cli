@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      // "es2015",
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 version", "ie >= 7"]
+        }
+      }
+    ],
+  ],
+  "plugins": ["syntax-dynamic-import"]
+}
