@@ -1,6 +1,7 @@
 <template>
-    <div id="home">
-        <h1>这是首页</h1>
+    <div class="home">
+        <h1></h1>
+        <h2>您好，这里是Joseph Cli脚手架</h2>
     </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.home{
+    h2{
+        width: 100%;
+        text-align: center;
+    }
+}
 </style>
